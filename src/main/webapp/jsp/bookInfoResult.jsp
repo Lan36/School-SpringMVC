@@ -1,0 +1,59 @@
+
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>Title</title>
+</head>
+<body>
+你好${msg}
+<table>
+    <tr>
+        <td>图书名称:</td>
+        <td>${BookInfo.name}</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ISBN号:</td>
+        <td>${BookInfo.ISBN}</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>作者:</td>
+        <td>${BookInfo.writer}</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>图书价格:</td>
+        <td>${BookInfo.price}</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>出版日期:</td>
+        <td>${BookInfo.pubDate}</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>适用人群:</td>
+        <td>${BookInfo.group}</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>总库存:</td>
+        <td>${BookInfo.has}</td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <td>出版社:</td>
+        <td>${BookInfo.pub}</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>图书类型:</td>
+        <td>${BookInfo.type}</td>
+        <td></td>
+    </tr>
+
+</table>
+</body>
+</html>
